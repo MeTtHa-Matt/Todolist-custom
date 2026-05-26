@@ -1,0 +1,39 @@
+main {
+    background-color:#ebebeb;
+}
+
+#avancement-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid currentColor;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+#avancement-slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid currentColor;
+    cursor: pointer;
+}
+
+.tm-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  padding: 7px 14px !important;
+  border-radius: 8px !important;
+  border: none !important;
+  cursor: pointer !important;
+}
+
+.tm-btn-success {
+  background: #EAF3DE !important;
+  color: #27500A !important;
+}
